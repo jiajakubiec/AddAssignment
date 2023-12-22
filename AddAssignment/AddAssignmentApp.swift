@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct AddAssignmentApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+            WindowGroup {
+                ContentView()
+            }
+            .modelContainer(for: Assignment.self)
         }
     }
-}

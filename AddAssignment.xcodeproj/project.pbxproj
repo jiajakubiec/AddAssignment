@@ -11,6 +11,7 @@
 		DE71044F2B35DDF300F97965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71044E2B35DDF300F97965 /* ContentView.swift */; };
 		DE7104512B35DDF900F97965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7104502B35DDF900F97965 /* Assets.xcassets */; };
 		DE7104542B35DDF900F97965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7104532B35DDF900F97965 /* Preview Assets.xcassets */; };
+		DE71045B2B35DE7C00F97965 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE71045A2B35DE7C00F97965 /* Assignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DE71044E2B35DDF300F97965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE7104502B35DDF900F97965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7104532B35DDF900F97965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE71045A2B35DE7C00F97965 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DE71044C2B35DDF300F97965 /* AddAssignmentApp.swift */,
 				DE71044E2B35DDF300F97965 /* ContentView.swift */,
+				DE71045A2B35DE7C00F97965 /* Assignment.swift */,
 				DE7104502B35DDF900F97965 /* Assets.xcassets */,
 				DE7104522B35DDF900F97965 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE71045B2B35DE7C00F97965 /* Assignment.swift in Sources */,
 				DE71044F2B35DDF300F97965 /* ContentView.swift in Sources */,
 				DE71044D2B35DDF300F97965 /* AddAssignmentApp.swift in Sources */,
 			);

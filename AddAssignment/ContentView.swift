@@ -14,7 +14,7 @@ struct ContentView: View {
     @Query var assignment: [Assignment]
     @State var enteredAssignment: String = ""
     var body: some View {
-        Button("+") {
+        Button("Add assignment") {
             showingAlert = true
         }
         .alert("Add assignment", isPresented: $showingAlert) {
