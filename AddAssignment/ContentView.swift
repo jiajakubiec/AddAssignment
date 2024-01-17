@@ -19,7 +19,9 @@ struct ContentView: View {
         }
         .alert("Add assignment", isPresented: $showingAlert) {
             VStack {
-                TextField ("Enter Assignment", text: $enteredAssignment)
+                TextField ("Enter Assignment Name", text: $enteredAssignment)
+                TextField ("Enter Assignment Type", text: $enteredAssignment)
+                TextField ("Enter Class Name", text: $enteredAssignment)
             }
             Button("Add") {
                 showingAlert = true
